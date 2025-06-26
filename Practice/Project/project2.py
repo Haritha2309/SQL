@@ -76,7 +76,7 @@ for i in range(n):
 wb = Workbook()
 sheet = wb.active
 sheet.title = "Report Card"
-sheet.append(["name","roll_no","English","Tamil","Maths","Science","Social","grade","avg"])
+sheet.append(["name","roll_no","English","Tamil","Maths","Science","Social","grade","best"])
 for stu in students_list:
     rep = report(stu)
     rep.display()
